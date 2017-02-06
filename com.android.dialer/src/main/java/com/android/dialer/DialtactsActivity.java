@@ -378,8 +378,7 @@ public class DialtactsActivity extends TransactionSafeActivity implements View.O
         super.onCreate(savedInstanceState);
 
         // add by geniusgithub
-        boolean hasStartPermissionActivity = ForceRequestPermissionsActivity.startPermissionActivity(this);
-
+        ForceRequestPermissionsActivity.startPermissionActivity(this);
         // add by geniusgithub
 
         mFirstLaunch = true;
